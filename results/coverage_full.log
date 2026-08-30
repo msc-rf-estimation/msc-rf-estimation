@@ -1,0 +1,37 @@
+Saved figures/coverage_sweep_flat.png  (0.7s)
+
+=== paired (combined - pure_gp) RMSE by coverage, UNOBSERVED region [flat] ===
+  S1 f=0.66: -1.30 dB [-1.53,-1.06] d=-2.32  (combined better, n=20)
+  S1 f=0.50: -1.07 dB [-1.72,-0.30] d=-0.64  (combined better, n=20)
+  S1 f=0.33: -1.22 dB [-1.81,-0.54] d=-0.82  (combined better, n=20)
+  S1 f=0.25: -1.21 dB [-1.87,-0.54] d=-0.80  (combined better, n=20)
+  S2 f=0.66: +4.49 dB [+4.03,+4.95] d=+4.16  (combined worse, n=20)
+  S2 f=0.50: +3.67 dB [+3.42,+3.94] d=+5.93  (combined worse, n=20)
+  S2 f=0.33: +4.30 dB [+4.11,+4.50] d=+9.58  (combined worse, n=20)
+  S2 f=0.25: +4.87 dB [+4.67,+5.09] d=+9.94  (combined worse, n=20)
+  [terrain/S1] seed 11 done
+  [terrain/S2] seed 0 done
+  [terrain/S2] seed 1 done
+  [terrain/S2] seed 2 done
+  [terrain/S2] seed 3 done
+  [terrain/S2] seed 4 done
+  [terrain/S2] seed 5 done
+  [terrain/S2] seed 6 done
+  [terrain/S2] seed 7 done
+  [terrain/S2] seed 8 done
+  [terrain/S2] seed 9 done
+  [terrain/S2] seed 10 done
+  [terrain/S2] seed 11 done
+Saved figures/coverage_sweep_terrain.png  (302.2s)
+
+=== paired (combined - pure_gp) RMSE by coverage, UNOBSERVED region [terrain] ===
+  S1 f=0.66: -0.69 dB [-1.26,-0.07] d=-0.61  (combined better, n=12)
+  S1 f=0.50: -0.41 dB [-1.62,+1.06] d=-0.16  (combined better, n=12)
+  S1 f=0.33: -0.48 dB [-1.74,+1.03] d=-0.19  (combined better, n=12)
+  S1 f=0.25: +0.45 dB [-0.82,+1.73] d=+0.19  (combined worse, n=12)
+  S2 f=0.66: +4.69 dB [+2.43,+6.93] d=+1.11  (combined worse, n=12)
+  S2 f=0.50: +3.53 dB [+1.01,+5.90] d=+0.77  (combined worse, n=12)
+  S2 f=0.33: +4.02 dB [+1.83,+6.05] d=+1.01  (combined worse, n=12)
+  S2 f=0.25: +4.65 dB [+2.47,+6.51] d=+1.22  (combined worse, n=12)
+
+Done (303.2s)

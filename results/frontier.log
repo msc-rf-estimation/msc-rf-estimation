@@ -1,0 +1,28 @@
+  [frontier] seed 0 done
+  [frontier] seed 1 done
+  [frontier] seed 2 done
+  [frontier] seed 3 done
+  [frontier] seed 4 done
+Saved figures/compute_frontier.png
+
+=== compute frontier (mean over seeds) ===
+  pure GP (batch):
+    n_train=  50     49.7 ms  RMSE  4.10 dB
+    n_train= 100     38.9 ms  RMSE  3.77 dB
+    n_train= 200    114.0 ms  RMSE  3.55 dB
+    n_train= 350    317.3 ms  RMSE  3.28 dB
+    n_train= 500    433.3 ms  RMSE  2.89 dB
+  pure parametric (PF):
+    particles=  500    333.2 ms  RMSE  8.46 dB
+    particles= 1000    502.1 ms  RMSE  8.55 dB
+    particles= 2000    792.0 ms  RMSE  8.66 dB
+    particles= 5000   1633.2 ms  RMSE  8.50 dB
+    particles=10000   3101.6 ms  RMSE  8.32 dB
+  combined (PF + residual GP):
+    particles=  500    709.0 ms  RMSE  3.06 dB
+    particles= 1000    869.4 ms  RMSE  3.07 dB
+    particles= 2000   1148.9 ms  RMSE  3.07 dB
+    particles= 5000   2001.0 ms  RMSE  3.07 dB
+    particles=10000   3453.1 ms  RMSE  3.04 dB
+
+Done (51.7s)

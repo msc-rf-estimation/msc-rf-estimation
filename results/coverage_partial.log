@@ -1,0 +1,61 @@
+=== S1 / flat ===
+  [S1/flat] seed 0 done
+  [S1/flat] seed 1 done
+  [S1/flat] seed 2 done
+  [S1/flat] seed 3 done
+  [S1/flat] seed 4 done
+  [S1/flat] seed 5 done
+  [S1/flat] seed 6 done
+  [S1/flat] seed 7 done
+  [S1/flat] seed 8 done
+  [S1/flat] seed 9 done
+  [S1/flat] seed 10 done
+  [S1/flat] seed 11 done
+  [S1/flat] seed 12 done
+  [S1/flat] seed 13 done
+  [S1/flat] seed 14 done
+  [S1/flat] seed 15 done
+  [S1/flat] seed 16 done
+  [S1/flat] seed 17 done
+  [S1/flat] seed 18 done
+  [S1/flat] seed 19 done
+=== S2 / flat ===
+  [S2/flat] seed 0 done
+  [S2/flat] seed 1 done
+  [S2/flat] seed 2 done
+  [S2/flat] seed 3 done
+  [S2/flat] seed 4 done
+  [S2/flat] seed 5 done
+  [S2/flat] seed 6 done
+  [S2/flat] seed 7 done
+  [S2/flat] seed 8 done
+  [S2/flat] seed 9 done
+  [S2/flat] seed 10 done
+  [S2/flat] seed 11 done
+  [S2/flat] seed 12 done
+  [S2/flat] seed 13 done
+  [S2/flat] seed 14 done
+  [S2/flat] seed 15 done
+  [S2/flat] seed 16 done
+  [S2/flat] seed 17 done
+  [S2/flat] seed 18 done
+  [S2/flat] seed 19 done
+Saved figures/coverage_sweep_flat.png  (889.8s)
+
+=== paired (combined - pure_gp) RMSE by coverage, UNOBSERVED region [flat] ===
+  S1 f=0.66: -1.30 dB [-1.53,-1.06] d=-2.32  (combined better)
+  S1 f=0.50: -1.07 dB [-1.72,-0.30] d=-0.64  (combined better)
+  S1 f=0.33: -1.22 dB [-1.81,-0.54] d=-0.82  (combined better)
+  S1 f=0.25: -1.21 dB [-1.87,-0.54] d=-0.80  (combined better)
+  S2 f=0.66: +4.49 dB [+4.03,+4.95] d=+4.16  (combined worse)
+  S2 f=0.50: +3.67 dB [+3.42,+3.94] d=+5.93  (combined worse)
+  S2 f=0.33: +4.30 dB [+4.11,+4.50] d=+9.58  (combined worse)
+  S2 f=0.25: +4.87 dB [+4.67,+5.09] d=+9.94  (combined worse)
+=== S1 / terrain ===
+  [S1/terrain] seed 0 done
+  [S1/terrain] seed 1 done
+  [S1/terrain] seed 2 done
+  [S1/terrain] seed 3 done
+  [S1/terrain] seed 4 done
+  [S1/terrain] seed 5 done
+  [S1/terrain] seed 6 done

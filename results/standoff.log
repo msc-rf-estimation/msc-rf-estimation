@@ -1,0 +1,35 @@
+  [standoff S1] seed 0 done
+  [standoff S1] seed 1 done
+  [standoff S1] seed 2 done
+  [standoff S1] seed 3 done
+  [standoff S1] seed 4 done
+  [standoff S1] seed 5 done
+  [standoff S1] seed 6 done
+  [standoff S1] seed 7 done
+  [standoff S1] seed 8 done
+  [standoff S1] seed 9 done
+  [standoff S1] seed 10 done
+  [standoff S1] seed 11 done
+  [standoff S2] seed 0 done
+  [standoff S2] seed 1 done
+  [standoff S2] seed 2 done
+  [standoff S2] seed 3 done
+  [standoff S2] seed 4 done
+  [standoff S2] seed 5 done
+  [standoff S2] seed 6 done
+  [standoff S2] seed 7 done
+  [standoff S2] seed 8 done
+  [standoff S2] seed 9 done
+  [standoff S2] seed 10 done
+  [standoff S2] seed 11 done
+Saved figures/standoff_sweep.png
+
+=== paired (combined - pure_gp) RMSE by standoff, NEAR-JAMMER window ===
+  S1 standoff=200m: -3.84 dB [-4.20,-3.47] d=-5.63  (combined better, n=12)
+  S1 standoff=400m: -5.32 dB [-5.77,-4.85] d=-6.13  (combined better, n=12)
+  S1 standoff=600m: -5.87 dB [-6.39,-5.31] d=-5.79  (combined better, n=12)
+  S2 standoff=400m: +3.68 dB [+3.27,+4.04] d=+5.15  (combined worse, n=12)
+  S2 standoff=600m: +4.53 dB [+4.20,+4.87] d=+7.35  (combined worse, n=12)
+  S2 standoff=800m: +5.25 dB [+4.92,+5.60] d=+8.38  (combined worse, n=12)
+
+Done (249.4s)

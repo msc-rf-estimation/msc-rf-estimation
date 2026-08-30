@@ -1,0 +1,34 @@
+
+=== S1 / flat (n=20) ===
+  combined         RMSE   3.01 ± 0.17 dB
+  pure_gp          RMSE   2.87 ± 0.15 dB
+  pure_parametric  RMSE   8.30 ± 0.92 dB
+  no_jamming       RMSE  19.70 ± 0.22 dB
+  calib: combined 0.272  pure_gp 0.244
+  combined-pure_gp RMSE diff +0.14 dB, 95% CI [+0.08,+0.20], Cohen d +0.99
+
+=== S1 / real (n=20) ===
+  combined         RMSE   2.65 ± 0.21 dB
+  pure_gp          RMSE   2.58 ± 0.21 dB
+  pure_parametric  RMSE  11.42 ± 1.51 dB
+  no_jamming       RMSE  17.33 ± 1.20 dB
+  calib: combined 0.211  pure_gp 0.198
+  combined-pure_gp RMSE diff +0.08 dB, 95% CI [+0.06,+0.09], Cohen d +1.98
+
+=== S2 / flat (n=20) ===
+  combined         RMSE   3.39 ± 0.29 dB
+  pure_gp          RMSE   2.70 ± 0.19 dB
+  pure_parametric  RMSE  14.49 ± 0.23 dB
+  no_jamming       RMSE  19.78 ± 0.21 dB
+  calib: combined 0.408  pure_gp 0.152
+  combined-pure_gp RMSE diff +0.69 dB, 95% CI [+0.56,+0.81], Cohen d +2.33
+
+=== S2 / real (n=20) ===
+  combined         RMSE   2.66 ± 0.29 dB
+  pure_gp          RMSE   2.47 ± 0.23 dB
+  pure_parametric  RMSE  19.80 ± 2.26 dB
+  no_jamming       RMSE  17.31 ± 1.15 dB
+  calib: combined 0.220  pure_gp 0.156
+  combined-pure_gp RMSE diff +0.18 dB, 95% CI [+0.14,+0.23], Cohen d +1.81
+
+Saved figures/factorial_rmse.png  (762.4s)
